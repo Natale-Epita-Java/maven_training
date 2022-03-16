@@ -14,6 +14,7 @@ class SampleTest {
         Assertions.assertEquals(unSample.op(Sample.Operation.ADD, 36, 0), 36);
         Assertions.assertEquals(unSample.op(Sample.Operation.ADD, 0, 0), 0);
 
+        
         Assertions.assertEquals(unSample.op(Sample.Operation.MULT, 1, 2), 2);
         Assertions.assertEquals(unSample.op(Sample.Operation.MULT, -15, 15), -225);
         Assertions.assertEquals(unSample.op(Sample.Operation.MULT, 22, 0), 0);
